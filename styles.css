@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Pacifico|Bangers|Rancho|Bungee+Shade|Fruktur');
+
+html {
+  background-color: #7AF400;
+}
+body {
+  width : 900px;
+  background-color: #037FFB;
+  border: 4px solid black;
+  margin: 10px auto;
+  padding: 0 20px 20px 20px;
+}
+h1 
+{
+  margin: 0;
+  padding: 20px 0;    
+  color: #000000;
+  font-family: 'Bangers', cursive;
+  text-shadow: 3px 6px 1px white;
+  font-size: 100px;
+  text-align: center;
+}
+h2 
+{
+  margin: 0;
+  padding: 20px 0;    
+  color: #000000;
+  font-family: 'Bungee Shade', cursive;
+  text-shadow: 3px 6px 1px white;
+  font-size: 50px;
+  text-align: left;
+}
+img 
+{ width : 500px;
+  display: block;
+  
+}
+p, li ,a{
+  font-family: 'Rancho', serif;
+  font-size: 38px; 
+  line-height: 1;
+  letter-spacing: 1px;
+}
+.rpi{
+  width: 300px;
+  height: 200px;
+}
+.Controller{
+  width: 300px;
+  height: 200px;
+  margin-top: -200px;
+  margin-left: 800px;
+}
+.retro{
+  width: 300px;
+  height: 200px;
+  margin-top: -200px;
+  margin-left: 400px;
+}
+.one{
+margin-left: 80px;
+font-family: 'Fruktur', cursive;
+font-size: 25px;
+margin-bottom: 8px;
+}
+.two{
+margin-top: -40px;
+margin-left: 490px;
+font-family: 'Fruktur', cursive;
+font-size: 25px;
+margin-bottom: 10px;
+}
+.three{
+margin-top: -40px;
+margin-left: 880px;
+font-family: 'Fruktur', cursive;
+font-size: 25px;
+}
