@@ -1,39 +1,143 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Luckiest+Guy|acifico|Bangers|Rancho|Bungee+Shade|Fruktur|Gloria+Hallelujah|Josefin+Sans|Permanent+Marker');
 
 html {
-  background-color:#037FFB;
+  animation: anima 3s infinite;
+  background-color:#a80500;/*red*/
+  box-shadow: inset 0px 0px 60px 20px currentColor;
+}
+@keyframes anima
+{
+  33%
+  {
+     background-color:#a80500;/*red*/
+  }
+  100%
+  {
+     background-color:#038e01;/*green*/
+  }
+  66%
+  {
+     background-color:#0c2fb7;/*blue*/  
+  }
 }
 body {
   width : 90%;
-  background-color:#b62ee8;
   border: 4px solid black;
   margin: 50px 50px 50px 50px;
+  animation: ani 3s infinite;
+  background-color:#038e01;/*green*/
+  box-shadow: inset 0px 0px 6px 2px currentColor;
+}
+@keyframes ani 
+{
+  66%
+  {
+     background-color:#a80500;/*red*/
+  }
+  33%
+  {
+     background-color:#038e01;/*green*/
+  }
+
+  100%
+  {
+     background-color:#0c2fb7;/*blue*/
+  }
 }
 .border1{
 border: 4px solid black;
 margin:10px 10px 10px 10px;
-background-color:#e00f39;
+animation: animat 3s infinite;
+background-color:#0c2fb7;/*blue*/
+box-shadow: inset 0px 0px 6px 2px currentColor;
+}
+@keyframes animat 
+{
+  100%
+  {
+     background-color:#a80500;/*red*/
+  }
+  66%
+  {
+     background-color: #038e01;/*green*/
+ 
+  }
+  33%
+  {
+     background-color:#0c2fb7;/*blue*/
+ 
+  }
 }
 .border2{
 border: 4px solid black;
 margin:5px 5px 5px 5px;
-background-color:#f7a102;
+background-color:#000000;
+padding:10px;
+
 }
 h1 
 {
   margin: 0;
   padding: 20px 0;    
-  color: #000000;
+  color: #ffffff;
   font-family: 'Bangers', cursive;
-  text-shadow: 3px 6px 1px white;
+  text-shadow: 3px 6px 1px red;
   font-size: 100px;
   text-align: center;
+  animation: animate 10s infinite;
+}
+@keyframes animate 
+{
+  0%
+  {
+     text-shadow:6px 6px 1px #f2634d;
+  }
+  10%
+  {
+     text-shadow:6px 6px 1px #4bbced;
+  }
+  20%
+  {
+     text-shadow:6px 6px 1px #3981e5;
+  }
+  30%
+  {
+     text-shadow:6px 6px 1px #05aa3c;
+  }
+  40%
+  {
+     text-shadow:6px 6px 1px #5ced40;
+  }
+  50%
+  {
+     text-shadow:6px 6px 1px yellow;
+  }
+  60%
+  {
+     text-shadow:6px 6px 1px #e0b43c;
+  }
+  70%
+  {
+     text-shadow:6px 6px 1px #e54069;
+  }
+  80%
+  {
+     text-shadow:6px 6px 1px #d24bea;
+  }
+  90%
+  {
+     text-shadow:6px 6px 1px #8f38e0;
+  }
+  100%
+  {
+     text-shadow:6px 6px 1px #ed3e3b;
+  }
 }
 h2 
 {
   margin: 10px;
   padding: 20px 0;    
-  color: #000000;
+  color: #ffc402;
   font-family: 'Permanent Marker', cursive;
   
   font-size: 60px;
@@ -42,6 +146,7 @@ h2
 h3{
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 30px;
+  color:white;
 }
 img 
 { width : 500px;
