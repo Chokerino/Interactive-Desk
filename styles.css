@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Luckiest+Guy|acifico|Bangers|Rancho|Bungee+Shade|Fruktur|Gloria+Hallelujah|Josefin+Sans|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Anton|Luckiest+Guy|acifico|Bangers|Rancho|Bungee+Shade|Fruktur|Gloria+Hallelujah|Josefin+Sans|Permanent+Marker');
 
 html {
   animation: anima 3s infinite;
@@ -133,7 +133,7 @@ h1
      text-shadow:6px 6px 1px #ed3e3b;
   }
 }
-h2 
+h2,ul 
 {
   margin: 10px;
   padding: 20px 0;    
@@ -149,11 +149,12 @@ h3{
   color:white;
 }
 img 
-{ width : 500px;
+{ 
+  width : 500px;
   display: block;
-  
+  margin-left: 400px;
 }
-p, li ,a{
+p,a{
   font-family: 'Rancho', serif;
   font-size: 38px; 
   line-height: 1;
@@ -195,6 +196,93 @@ margin-left: 990px;
 font-family: 'Fruktur', cursive;
 font-size: 25px;
 }
+.sktch1{
+  margin-left: 50px;
+  width: 400px;
+  height: 600px;
+}
+.sktch2{
+  margin-left: 450px;
+  margin-top: -600px;
+  width: 400px;
+  height: 600px;
+}
+.sktch3{
+  margin-left: 850px;
+  margin-top: -600px;
+  width: 400px;
+  height: 600px;
+}
+.sktch{
+font-family: 'Architects Daughter', cursive;
+}
 video{
-  margin-left: 100px;
+  margin-left: 450px;
+  margin-top: -100px;
+}
+li{
+  margin-left: 50px;
+  font-family: 'Architects Daughter', cursive;
+  color:white;
+  font-size: 30px;
+}
+.noob{
+   margin-left: 50px;
+  width: 200px;
+  height: 200px;
+  border-image: 0px;
+  border-radius: 50%;
+}
+.noob1{
+   margin-left: 350px;
+   margin-top: -200px;
+  width: 200px;
+  height: 200px;
+  border-image: 0px;
+  border-radius: 50%;
+}
+.noob2{
+   margin-left: 650px;
+   margin-top: -200px;
+  width: 200px;
+  height: 200px;
+  border-image: 0px;
+  border-radius: 50%;
+}
+.noob3{
+  margin-left: 950px;
+  margin-top: -200px;
+  width: 200px;
+  height: 200px;
+  border-image: 0px;
+  border-radius: 50%;
+}
+.one1{
+margin-left: 100px;
+font-family: 'Luckiest+Guy', cursive;
+font-size: 25px;
+margin-bottom: 8px;
+color:white;
+}
+.two2{
+margin-top: -40px;
+margin-left: 410px;
+font-family: 'Luckiest+Guy', cursive;
+font-size: 25px;
+margin-bottom: 9px;
+color:white;
+}
+.three3{
+margin-top: -40px;
+margin-left: 700px;
+font-family: 'Luckiest+Guy', cursive;
+font-size: 25px;
+color:white;
+}
+.four4{
+margin-top: -61px;
+margin-left: 1020px;
+font-family: 'Luckiest+Guy', cursive;
+font-size: 25px;
+color:white;
 }
