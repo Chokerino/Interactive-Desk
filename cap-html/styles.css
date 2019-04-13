@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Righteous|Monoton|Alfa+Slab+One|Fredoka+One|Architects+Daughter|Anton|Luckiest+Guy|Pacifico|Bangers|Rancho|Bungee+Shade|Fruktur|Gloria+Hallelujah|Josefin+Sans|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Bungee|Black+Ops+One|VT323|Rock+Salt|Righteous|Monoton|Alfa+Slab+One|Fredoka+One|Architects+Daughter|Anton|Luckiest+Guy|Pacifico|Bangers|Rancho|Bungee+Shade|Fruktur|Gloria+Hallelujah|Josefin+Sans|Permanent+Marker');
 
 body {
   background-color: black: 
@@ -27,4 +27,57 @@ h1{
 body{
   background: url('rgb.png');
   background-size: cover;
+}
+.img1{
+margin-bottom: 0px;
+}
+.img2{
+  margin-top: 15px;
+  height: 500px;
+  width: 500px;
+}
+.img3{
+  margin-top: 15px;
+  height: 500px;
+  width: 500px;
+}
+.desc{
+  font-size: 30px;
+  color: #baffdf;
+  line-height: 30px;
+  font-family: 'Bungee', cursive;
+}
+.img4{
+  margin-left: 20px;
+  margin-top: 15px;
+  height: 700px;
+  width: 700px;
+}
+.img4:hover {
+  height: 90%;
+  width: 90%;
+  z-index: 2;
+}
+.img5{
+  margin-top: 15px;
+  height: 700px;
+  width: 700px;
+}
+.img6{
+  margin-top: 15px;
+  height: 300px;
+  width: 400px;
+}
+.img7{
+  margin-top: 15px;
+  height: 300px;
+  width: 300px;
+}
+.img8{
+  margin-top: 15px;
+  height: 300px;
+  width: 500px;
+}
+.end{
+  margin-top: 50px;
 }
